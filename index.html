@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Discover and download useful apps created by Akhil.">
+  <meta name="theme-color" content="#080b16">
+  <title>Akhil Apps | Apps made with purpose</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+  <header class="topbar">
+    <a class="brand" href="#home"><span class="brand-mark">A</span><span>AKHIL<span
+          class="brand-accent">APPS</span></span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav id="navLinks">
+      <a href="#home">Home</a><a href="#apps">Apps</a><a href="#about">About</a>
+      <a class="nav-cta" href="#apps">Explore apps <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="pulse"></span> THE OFFICIAL APP HUB</div>
+        <h1>Small ideas.<br><span>Powerful apps.</span></h1>
+        <p class="hero-text">Explore useful apps built to make everyday digital work simpler. Find an app, check its
+          details, and download it in just a few clicks.</p>
+        <div class="hero-actions"><a class="button primary" href="#apps">Explore apps <span>↘</span></a><a
+            class="button secondary" href="#about">About this hub</a></div>
+        <div class="hero-note"><span class="note-line"></span> BUILT WITH CURIOSITY · MADE TO BE USEFUL</div>
+      </div>
+      <div class="hero-art" aria-label="Abstract glowing app interface illustration">
+        <div class="orbit orbit-a"></div>
+        <div class="orbit orbit-b"></div>
+        <div class="core-card">
+          <div class="core-top"><span class="tiny-dot"></span><span>APP ECOSYSTEM</span><span
+              class="core-menu">•••</span></div>
+          <div class="core-symbol">A<span>+</span></div>
+          <div class="core-label">CREATE / BUILD / SHARE</div>
+          <div class="core-bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+        </div>
+        <div class="float-chip chip-one">✦ &nbsp; Made by Akhil</div>
+        <div class="float-chip chip-two">01 / DISCOVER</div>
+      </div>
+    </section>
+
+    <section class="apps-section section-wrap" id="apps">
+      <div class="section-heading">
+        <div>
+          <div class="eyebrow">THE COLLECTION</div>
+          <h2>Explore <span>my apps.</span></h2>
+        </div>
+        <p>Choose an app below to view its available downloads.</p>
+      </div>
+      <div class="app-grid" id="appGrid">
+        <article class="app-card featured">
+          <div class="app-card-top">
+            <div class="app-icon">MW</div><span class="app-status">AVAILABLE</span>
+          </div>
+          <div class="app-category">PRODUCTIVITY · DESKTOP & ANDROID</div>
+          <h3>My Work App</h3>
+          <p>Keep your notes, tasks, money records and projects organised in one place.</p>
+          <div class="app-tags"><span>Productivity</span><span>Personal organiser</span></div>
+          <div class="download-area">
+            <a class="download-button"
+              href="https://github.com/kumarakhil1538-commits/my-work-app-downloads/raw/refs/heads/main/myworkapp-tauri_0.1.0_x64-setup.exe"
+              target="_blank" rel="noopener"> <span>↓</span> Windows download</a>
+            <a class="download-button android"
+              href="https://github.com/kumarakhil1538-commits/my-work-app-downloads/raw/refs/heads/main/my-work-app-debug-apk.zip"
+              target="_blank" rel="noopener"><span>↓</span> Android download (ZIP)</a>
+          </div>
+        </article>
+        <article class="app-card coming-card">
+          <div class="coming-icon">✧</div>
+          <div class="app-category">YOUR NEXT PROJECT</div>
+          <h3>More apps<br>coming soon.</h3>
+          <p>This space is ready for your next creation. Add another app card whenever you publish one.</p>
+          <span class="coming-label">IN DEVELOPMENT</span>
+        </article>
+      </div>
+      <p class="download-hint"><span>ⓘ</span> Download links open the file hosted on GitHub. Make sure you download the
+        version for your device.</p>
+    </section>
+
+    <section class="about-section section-wrap" id="about">
+      <div class="about-panel">
+        <div class="about-orb"></div>
+        <div class="eyebrow">A LITTLE ABOUT THIS PLACE</div>
+        <h2>Built by one.<br><span>Made for everyone.</span></h2>
+        <p>Akhil Apps is the home for apps and digital tools created by Akhil. The goal is simple: build practical
+          things, keep improving them, and make them easy to access.</p><a href="https://akhilweb.online/"
+          target="_blank" rel="noopener" class="text-link">Visit my portfolio <span>↗</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer><a class="brand footer-brand" href="#home"><span class="brand-mark">A</span><span>AKHIL<span
+          class="brand-accent">APPS</span></span></a>
+    <p>© <span id="year"></span> Akhil Apps. Built with purpose.</p><a href="#home" class="back-top">BACK TO TOP ↑</a>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
