@@ -1292,3 +1292,21 @@ footer p {
         font-size: 18px;
     }
 }
+
+/* AKHIL APPS LOGO */
+
+.logo-image {
+    width: 150px;
+    height: 65px;
+    object-fit: contain;
+    display: block;
+}
+
+/* Mobile Logo */
+
+@media (max-width: 600px) {
+    .logo-image {
+        width: 115px;
+        height: 55px;
+    }
+}
